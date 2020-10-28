@@ -18,5 +18,27 @@ print(os.rename('E:\\Backupfile','E:\\Driver_Notes\\NewBackupFIle'))
 print(os.environ)
 
 os.getgid()
+-------------------------------------------------------------------------------------------------------------------
+import sys
+
+print("The no of command line arguments :",len(sys.argv))
+
+if len(sys.argv) != 3:
+    sys.exit()
+
+usr_str=sys.argv[1]
+usr_action = sys.argv[2]
+# print(usr_str)
+# print(usr_action)
+
+if usr_action=='lower':
+    print(usr_str.lower())
+elif usr_action=='upper':
+    print(usr_str.upper())
+elif usr_action=='title':
+    print(usr_str.title())
+
+else:
+    print("Your option is invalid please select correct one")
 
 
