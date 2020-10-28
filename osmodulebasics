@@ -42,7 +42,31 @@ print(os.path.isfile('C:\\Users\\Natraj\\Desktop\\x.txt'))
 #os.path.islink()
 print(os.path.islink('C:\\Users\\Natraj\\Desktop\\x.txt'))
 print(os.path.getatime('C:\\Users\\Natraj\\Desktop\\x.txt'))
+-----------------------------------------------------------------------------------------------------------
+                                os.system()
+                                
+os.system('time'or'cls' or 'ipconfig' or 'netstat')
 
+
+import os
+import platform
+
+if platform.system()=="Windows":
+    os.system('cls')
+else:
+    os.system('clear')
+ -------------------------------------------------------------------------------------------------------------------
+ import platform
+print(platform.processor())
+print(platform.architecture())
+print(platform.machine())
+print(platform.node())
+print(platform.platform())
+print(platform.system())
+print(platform.uname())
+print(platform.python_compiler())
+print(platform.python_implementation())
+print(platform.python_version())
 
 
 
