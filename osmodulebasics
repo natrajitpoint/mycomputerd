@@ -18,6 +18,34 @@ print(os.rename('E:\\Backupfile','E:\\Driver_Notes\\NewBackupFIle'))
 print(os.environ)
 
 os.getgid()
+
+----------------------------------------------------------------------------------------------------------------
+import os
+
+#os.path.sep
+print(os.path.sep)
+#os.path.basename() or os.path.dirname()
+path='C:\\Users\\Natraj\\Desktop'
+path2='C:\\Users\\Natraj\\Desktop\\pem'
+print(os.path.basename(path))
+print(os.path.dirname(path))
+#os.path.join(path1,path2)
+print(os.path.join(path,path2))
+#os.path.split(path)
+print(os.path.split('C:\\Users\\Natraj\\Desktop\\pem'))
+#os.path.getsize(path)
+print(os.path.getsize('C:\\Users\\Natraj\\Desktop\\pem'))
+#os.path.exists(path)
+print(os.path.exists('C:\\Users\\Natraj\\Desktop\\pem'))
+#os.path.isfile(path)
+print(os.path.isfile('C:\\Users\\Natraj\\Desktop\\x.txt'))
+#os.path.islink()
+print(os.path.islink('C:\\Users\\Natraj\\Desktop\\x.txt'))
+print(os.path.getatime('C:\\Users\\Natraj\\Desktop\\x.txt'))
+
+
+
+
 -------------------------------------------------------------------------------------------------------------------
 import sys
 
