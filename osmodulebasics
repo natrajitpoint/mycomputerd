@@ -1,0 +1,22 @@
+import os
+
+print(os.sep)
+print(os.getcwd())
+#os.chdir(path)
+print(os.chdir('C:\\Users\\Natraj\\Desktop')) # in Windows u should gibe //-
+#os.listdir(path) or os.listdir()
+print(os.listdir('C:\\Users\\Natraj\\Desktop'))
+# os.mkdir(path) or os.mkdir()
+print(os.mkdir('C:\\Users\\Natraj\\Desktop\\how'))
+# os.makedirs(path)
+print(os.makedirs('E:\\Demo'))
+# os.remove(path) or os.removedirs(path)
+print(os.removedirs('E:\\Demo'))
+# os.rename(source,destination)
+print(os.rename('E:\\Backupfile','E:\\Driver_Notes\\NewBackupFIle'))
+# os.environ()
+print(os.environ)
+
+os.getgid()
+
+
